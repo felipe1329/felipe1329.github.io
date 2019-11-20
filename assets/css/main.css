@@ -4235,10 +4235,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://www.orsai.es/wp-content/uploads/2015/07/organizacion-de-eventos-lugar.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://www.orsai.es/wp-content/uploads/2015/07/organizacion-de-eventos-lugar.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://www.orsai.es/wp-content/uploads/2015/07/organizacion-de-eventos-lugar.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("http://www.orsai.es/wp-content/uploads/2015/07/organizacion-de-eventos-lugar.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4247,6 +4247,24 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+#main > header.banner-planeacion {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.hotelbecquer.com/wp-content/blogs.dir/1063/files/06-eventos/CABECERA.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.hotelbecquer.com/wp-content/blogs.dir/1063/files/06-eventos/CABECERA.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.hotelbecquer.com/wp-content/blogs.dir/1063/files/06-eventos/CABECERA.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.hotelbecquer.com/wp-content/blogs.dir/1063/files/06-eventos/CABECERA.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.spotlight-services .image img{
+	height: 320px;
+}
+
+.image-services {
+	width: 50% !important;
+}
 
 .organigrama * {
   margin: 0px;
@@ -4402,6 +4420,10 @@ input, select, textarea {
 @media (max-width: 767px) {
 	.content-organigrama {
 		display: none !important;
+	}
+
+	.image-services {
+		width: 100% !important;
 	}
 
 	.img-logo-deco {
