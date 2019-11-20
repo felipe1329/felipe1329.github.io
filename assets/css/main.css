@@ -380,7 +380,7 @@ input, select, textarea {
 		}
 
 	#content-organigrama {
-		display: none;
+		display: none !important;
 	}
 
 
