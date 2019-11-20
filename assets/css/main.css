@@ -1754,11 +1754,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-
-			.content-organigrama {
-				display: none;
-			}
-
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -4397,4 +4392,11 @@ input, select, textarea {
 
 .organigrama > ul > li > ul > li > a {
       width: 100%;
+}
+
+
+@media (max-width: 767px) {
+	.content-organigrama {
+		display: none !important;
+	}
 }
