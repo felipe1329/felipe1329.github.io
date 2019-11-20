@@ -356,30 +356,35 @@ input, select, textarea {
 		line-height: 1.65em;
 	}
 
-		@media screen and (max-width: 1680px) {
+	@media screen and (max-width: 1680px) {
 
-			body, input, select, textarea {
-				font-size: 13pt;
-			}
-
+		body, input, select, textarea {
+			font-size: 13pt;
 		}
 
-		@media screen and (max-width: 1280px) {
+	}
 
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
+	@media screen and (max-width: 1280px) {
 
+		body, input, select, textarea {
+			font-size: 12pt;
 		}
 
-		@media screen and (max-width: 736px) {
+	}
 
-			body, input, select, textarea {
-				font-size: 11pt;
-				letter-spacing: 0.0375em;
-			}
+	@media screen and (max-width: 736px) {
 
+		body, input, select, textarea {
+			font-size: 11pt;
+			letter-spacing: 0.0375em;
 		}
+
+	.content-organigrama {
+		display: none;
+	}
+
+
+	}
 
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
