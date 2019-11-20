@@ -379,7 +379,7 @@ input, select, textarea {
 			letter-spacing: 0.0375em;
 		}
 
-	.content-organigrama {
+	#content-organigrama {
 		display: none;
 	}
 
